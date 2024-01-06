@@ -114,6 +114,7 @@ export default function MapView() {
             .then(response => response.json())
             .then(data => {
                 console.log(data, "after sending email")
+                window.alert("Email sent")
             });
     }
 
